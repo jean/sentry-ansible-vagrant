@@ -32,6 +32,7 @@
     - python-dev
     - libxslt1-dev
     - libxml2-dev
+    - zlib1g-dev
     - libz-dev
     - libffi-dev
     - libssl-dev

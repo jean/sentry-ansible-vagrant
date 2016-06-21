@@ -22,6 +22,11 @@
       path: /var/sentry
 # END
 
+- name: install security extensions for compiling lxml
+  pip:
+    name: requests[security]
+    virtualenv: /var/sentry/ve
+
 - name: install sentry and create virtualenv if needed
   pip:
     name: sentry[postgres]
