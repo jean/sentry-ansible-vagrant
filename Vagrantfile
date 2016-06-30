@@ -37,5 +37,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       ansible.playbook = "sentry.yml"
       ansible.verbose = 'vvv'
     end
+
+  end
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = 1024
   end
 end
