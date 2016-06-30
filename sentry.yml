@@ -10,8 +10,8 @@
       email: redacted
       password: redacted
     sentry:
-      server: redacted
-      url: redacted
+      server: 1.2.3.4
+      url: http://1.2.3.4
       secret_key: 'redacted'
     sentry_mail:
       host: localhost
