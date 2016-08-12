@@ -8,7 +8,7 @@ CONF_ROOT = os.path.dirname(__file__)
 
 DATABASES = {
     'default': {
-        'ENGINE': 'sentry.db.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': '{{ db_sentry.name }}',
         'USER': '{{ db_sentry.user }}',
         'PASSWORD': '{{ db_sentry.password }}',
