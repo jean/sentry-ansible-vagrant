@@ -1,0 +1,2 @@
+[digitalocean]
+host1 ansible_ssh_host=sentry.studio38.de

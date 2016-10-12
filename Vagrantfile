@@ -33,10 +33,13 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       provider.size = "1gb"
     end
 
-    sentry.vm.provision "ansible" do |ansible| 
+    sentry.vm.provision "ansible" do |ansible|
       ansible.playbook = "sentry.yml"
       ansible.verbose = 'vvv'
-    end 
+    end
 
+  end
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = 1024
   end
 end
