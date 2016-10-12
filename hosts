@@ -1,2 +1,2 @@
 [digitalocean]
-host1 ansible_ssh_host=1.2.3.4 # replace with your server IP
+host1 ansible_ssh_host=sentry.studio38.de

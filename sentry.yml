@@ -10,8 +10,8 @@
       email: redacted
       password: redacted
     sentry:
-      server: 1.2.3.4
-      url: http://1.2.3.4
+      server: sentry.studio38.de
+      url: http://sentry.studio38.de
       secret_key: 'redacted'
     sentry_mail:
       host: localhost
